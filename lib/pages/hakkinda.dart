@@ -43,7 +43,7 @@ class _HakkindaState extends State<Hakkinda> {
                           color: Colors.white,
                           fontStyle: FontStyle.italic,
                           fontSize: 25.0)),
-                  onLongPressCancel: () {
+                  onSecondaryTapCancel: () {
                     Navigator.push(
                         context, MaterialPageRoute(builder: (context) => Islemler()));
                   },
